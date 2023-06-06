@@ -29,7 +29,7 @@
 
 void setup()
 {
-Wire.begin();
+Wire.begin(); // this is a test
 
 Serial.begin(9600);
 Serial.println("\nI2C Scanner");
